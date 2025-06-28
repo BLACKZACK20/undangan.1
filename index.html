@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Haflatul Imtihan & Pelepasan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Amiri:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+        }
+        
+        .arabic-text {
+            font-family: 'Amiri', serif;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/Background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        transition {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-green-600">Ma'had Manbaul Falah</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#acara" class="text-gray-600 hover:text-green-600 transition">Acara</a>
+                    <a href="#agenda" class="text-gray-600 hover:text-green-600 transition">Agenda</a>
+                    <a href="#galeri" class="text-gray-600 hover:text-green-600 transition">Galeri</a>
+                    <a href="#lokasi" class="text-gray-600 hover:text-green-600 transition">Lokasi</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 md:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Haflatul Imtihan & Pelepasan</h1>
+                <p class="text-xl md:text-2xl mb-8">Santri Angkatan 2 & 5</p>
+                <div class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+                    <a href="#acara">Lihat Detail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acara Section -->
+    <section id="acara" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Detail Acara</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-wrap items-center justify-center">
+                <div class="w-full md:w-1/2 px-6 mb-8 md:mb-0">
+                    <img src="images/Logo.png" alt="Santri sedang membaca Al-Quran di ruangan yang tenang dengan cahaya yang lembut" class="rounded-lg shadow-xl w-full floating">
+                </div>
+                <div class="w-full md:w-1/2 px-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Haflatul Imtihan & Pelepasan</h3>
+                    <p class="text-gray-600 mb-4">Kami mengundang Bapak/Ibu untuk hadir dalam acara wisuda santri yang akan diadakan pada:</p>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                        <div class="flex items-start mb-4">
+                            <div class="text-green-600 mr-4 mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Hari & Tanggal</h4>
+                                <p class="text-gray-600">Minggu, 06 Juli 2025</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-4">
+                            <div class="text-green-600 mr-4 mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Waktu</h4>
+                                <p class="text-gray-600">08.00 - 00.00 WIB</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-green-600 mr-4 mt-1">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Tempat</h4>
+                                <p class="text-gray-600">Aula Pondok Pesantren Manbaul Falah<br>Jl.Maqom Eyang Dalem Ibrahim, Desa.Cipatik, Kec.Cihampelas, Kab.Bandung Barat</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">Acara penutupan dan pelepasan santri tahun ajaran ini dihadiri oleh para ulama, orang tua santri, dan masyarakat umum.</p>
+                    
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-1/2 mb-4 md:mb-0">
+                            <div class="bg-green-100 border-l-4 border-green-600 p-4 rounded-r-lg">
+                                <h4 class="font-bold text-gray-800 mb-2">Pakaian</h4>
+                                <p class="text-gray-600">Muslim/Muslimah<br>Formal</p>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2">
+                            <div class="bg-yellow-100 border-l-4 border-yellow-600 p-4 rounded-r-lg">
+                                <h4 class="font-bold text-gray-800 mb-2">Kontak Panitia</h4>
+                                <p class="text-gray-600">Ketua Panitia<br>0812-3456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agenda Section -->
+    <section id="agenda" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Agenda Kegiatan</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="flex flex-col md:flex-row mb-8">
+                    <div class="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+                        <div class="bg-green-600 text-white inline-block px-4 py-2 rounded-lg">
+                            <span class="font-bold text-xl">08.00</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover transition">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Pembukaan & Pelepasan</h3>
+                            <p class="text-gray-600">Pembukaan acara oleh moderator dan Santri Angkatan 2 & 5</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row mb-8">
+                    <div class="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+                        <div class="bg-green-600 text-white inline-block px-4 py-2 rounded-lg">
+                            <span class="font-bold text-xl">11.00</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover transition">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Pembagian Raport</h3>
+                            <p class="text-gray-600">Wali kelas dan Orang Tua Santri</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row mb-8">
+                    <div class="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+                        <div class="bg-green-600 text-white inline-block px-4 py-2 rounded-lg">
+                            <span class="font-bold text-xl">12.30</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover transition">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Syahriah Bulanan</h3>
+                            <p class="text-gray-600">Pembacaan Tawasul,Istighosah,dan Maulid</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row mb-8">
+                    <div class="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+                        <div class="bg-green-600 text-white inline-block px-4 py-2 rounded-lg">
+                            <span class="font-bold text-xl">14.00</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover transition">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Imtihan</h3>
+                            <p class="text-gray-600">Penampilan Hasil Belajar</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3 text-center md:text-right mb-4 md:mb-0">
+                        <div class="bg-green-600 text-white inline-block px-4 py-2 rounded-lg">
+                            <span class="font-bold text-xl">18.30</span>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <div class="bg-white p-6 rounded-lg shadow-md card-hover transition">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Tabligh Akbar</h3>
+                            <p class="text-gray-600">Di iringi oleh Hadroh Al Mubarok Dan Gambus Djiharkah</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Galeri Kegiatan</h2>
+                <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Kegiatan - Kegiatan Acara Haflatul Imtihan</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Nadzoman.JPG" alt="Santri sedang Membaca Nadzoman di panggung" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Penampilan Hasil Belajar</h3>
+                        <p class="text-gray-600">Nadzoman</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Kreasi -Seni.JPG" alt="Kreasi Seni" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Kreasi Santri</h3>
+                        <p class="text-gray-600">Drama Kabaret</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Istighosah.jpg" alt="Kegiatan makan bersama di halaman pesantren dengan hidangan nasi kotak di atas tikar besar" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Istighosah</h3>
+                        <p class="text-gray-600">Pengajian</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Hadroh.JPG" alt="Kegiatan olahraga pagi di lapangan dengan santri sedang bermain bola voli" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Tabligh Akbar</h3>
+                        <p class="text-gray-600">Hadroh dan Gambus</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Pidato-3bahasa.JPG" alt="Kegiatan manasik haji di halaman pesantren dengan santri memakai pakaian ihram" class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Penampilan</h3>
+                        <p class="text-gray-600">Pidato 3 Bahasa</p>
+                    </div>
+                </div>
+                
+                <div class="overflow-hidden rounded-lg shadow-lg card-hover transition">
+                    <img src="images/Wonderland.jpg" alt="Seni Tari  class="w-full h-64 object-cover">
+                    <div class="p-4 bg-white">
+                        <h3 class="font-bold text-gray-800 mb-2">Kreasi Seni</h3>
+                        <p class="text-gray-600">Wonderland</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Removed RSVP Section -->
+            
+            <!-- Lokasi Section -->
+            <section id="lokasi" class="py-16 bg-white">
+                <div class="container mx-auto px-6">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Lokasi Acara</h2>
+                        <div class="w-20 h-1 bg-green-600 mx-auto"></div>
+                        <p class="text-gray-600 mt-4">Pondok Pesantren Manbaul Falah, Jl.Maqom Eyang Dalem Ibrahim, KP.Tambakan, Desa.Cipatik, Kec.Cihampelas, Kabupaten Bandung Barat</p>
+                    </div>
+                    
+                    <div class="flex flex-wrap items-center">
+                        <div class="w-full lg:w-1/2 mb-8 lg:mb-0">
+                            <div class="h-96 bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4739.305386663417!2d107.5012799!3d-6.9389452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68eff313ec88cb%3A0xc60ce69f16cab8a7!2sPondok%20Pesantren%20Manbaul%20Falah!5e1!3m2!1sen!2sid!4v1751095902629!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        
+                        <div class="w-full lg:w-1/2">
+                            <div class="lg:pl-12">
+                                <h3 class="text-2xl font-bold text-gray-800 mb-4">Akses Transportasi</h3>
+                                
+                                <div class="mb-6">
+                                    <div class="flex items-start mb-4">
+                                        <div class="text-green-600 mr-4 mt-1">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Dari Terminal Leuwi Panjang</h4>
+                                            <p class="text-gray-600">Angkot 17 (warna biru) turun di halte Pendidikan</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start mb-4">
+                                        <div class="text-green-600 mr-4 mt-1">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Dari Stasiun Bandung</h4>
+                                            <p class="text-gray-600">Angkot 10 (warna hijau) turun di pertigaan Al-Iman</p>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="flex items-start">
+                                        <div class="text-green-600 mr-4 mt-1">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-bold text-gray-800">Parkir Kendaraan</h4>
+                                            <p class="text-gray-600">Area parkir tersedia di bagian belakang gedung</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg">
+                                    <h4 class="font-bold text-gray-800 mb-2">Catatan Penting</h4>
+                                    <p class="text-gray-600">Harap datang tepat waktu untuk kelancaran acara. Hubungi panitia jika ada pertanyaan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Footer -->
+            <footer class="bg-green-800 text-white py-12">
+                <div class="container mx-auto px-6">
+                    <div class="flex flex-wrap items-center justify-between">
+                        <div class="w-full md:w-1/3 mb-8 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-4">Ma'had Manbaul Falah</h3>
+                            <p class="mb-4">Pesantren Tahfidzul quran WAl Kutub.</p>
+                            <p class="text-green-200">© 2025 Semua Hak Dilindungi</p>
+                        </div>
+                        
+                        <div class="w-full md:w-1/3 mb-8 md:mb-0">
+                            <h4 class="text-xl font-bold mb-4">Kontak Kami</h4>
+                            <div class="flex items-start mb-4">
+                                <div class="mr-4 mt-1">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p>+62 895-3277-76863</p>
+                                    <p class="text-green-200 text-sm">24 Jam</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="mr-4 mt-1">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p>ppmanbaulfalah.official@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="w-full md:w-1/3">
+                            <h4 class="text-xl font-bold mb-4">Media Sosial</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-white hover:text-green-200 transition">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385h-3.078v-3.47h3.078v-2.617c0-3.027 1.792-4.68 4.532-4.68 1.313 0 2.686.234 2.686.234v2.953h-1.514c-1.49 0-1.955.926-1.955 1.874v2.25h3.328l-.532 3.47h-2.794v8.385c5.736-.9 10.125-5.864 10.125-11.854z"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-white hover:text-green-200 transition">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-3.961v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-white hover:text-green-200 transition">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357-.646A8.902 8.902 0 002.007 3.58c0-.995.316-1.977.868-2.8A8.34 8.34 0 007.675 2.15c-.779.385-1.453 1.044-1.726 1.942-.351 1.06-.122 2.178.647 3.025a8.786 8.786 0 01-.986.123 4.775 4.775 0 00-1.354.175 4.87 4.87 0 001.563 2.38 4.79 4.79 0 01-2.148-.618v.062a4.852 4.852 0 003.906 4.836 4.808 4.808 0 01-2.205.085 4.895 4.895 0 004.566 3.375 9.76 9.76 0 01-6.075 2.025c-.4 0-.8-.023-1.192-.067A13.078 13.078 0 007.85 20.251z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+            <script>
+                // Animasi scroll
+                ScrollReveal().reveal('.hero-section h1, .hero-section p', {
+                    delay: 200,
+                    distance: '20px',
+                    origin: 'bottom',
+                    interval: 100
+                });
+                
+                // Menu mobile
+                document.querySelector('button.md\\:hidden').addEventListener('click', function() {
+                    document.querySelector('.hidden.md\\:flex').classList.toggle('hidden');
+                });
+            </script>
+        </body>
+        </html>
+
